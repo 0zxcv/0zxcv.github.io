@@ -1,15 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
 h1 {
     text-align: center;
     font-size: 4em;
+    color: #FCBE14;
     border: 0.3em;
     border-style: solid;
-    font-family: Otomanopee One;
-    background-color: #eee1b3;
+    font-family: Staatliches, cursive;
+    background-color: #00653A;
     padding: 3px;
     
 }
-img#seaLogo {
-    float: left;
-    height: 10%;
-    width: 10%;
+a.nav-link {
+    font-size: large;
 }
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: IBM Plex Mono, monospace;
+  }
+  
+  tr:nth-child(even) {
+    font-family: IBM Plex Mono, monospace;
+  }
+  th {
+      background-color: lightgoldenrodyellow;
+      color: black;
+      font-family: 'Staatliches', cursive;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  #redx1 {
+    position:absolute;
+    left: 500px;
+    top: 400px;
+    transition: transform .2s;
+  }
+  #redx1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+
+  }
+
+  #redx2 {
+    position:absolute;
+    left: 500px;
+    top: 800px;
+  }
+
+  #redx2:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
+  #redx3 {
+    position:absolute;
+    left: 1000px;
+    top: 400px;
+  }
+
+  #redx3:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
+  #redx4 {
+    position:absolute;
+    left: 1000px;
+    top: 800px;
+  }
+
+  #redx4:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
