@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Seattle Symphony</title>
+<link rel="stylesheet" href="mainStyles.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/SEA ALT.png" alt="logo" style="width:40px;">
+          <!-- SEA ALT.png and SEA.png are fictional team logos from the www.basketball-gm.com browser game -->
+        </a>
+        
+        <ul class="navbar-nav">
+          <li>
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="history.html">History</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="roster.html">Roster</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="stats.html">Stats</a>
+          </li>
+        </ul>
+      </nav>
+    
+    <header>
+        <h1>Seattle Symphony Basketball Team</h1>
+    </header>
+    <div class=container>
+        <h2 id="premiumSeating" class="display-1">Standard Seating</h1>
+    </div>
+
+    <img width="750px" id="premiumSeatings" src="images/seattleskyline.jpg">
+    <!-- Photo from https://www.660citynews.com/wp-content/blogs.dir/sites/8/2020/12/16/Climate-Plesge-Arena-Photo-Sign-Light-Up-2-01460-scaled.jpg-->
+
+    <!-- I used some of the Spice Bowl assignment code to help -->
+    <form>
+      <fieldset id="billing">
+      <legend>Billing Information (required)</legend>
+                <label for="firstBox">First Name</label>
+                <br>
+                <input type="text" name="fName" id="firstBox"/>
+                <br>
+                <label for="lastBox">Last Name</label>
+                <br>
+                <input type="text" name="lName" id="lastBox"/>
+                <br>
+                <label for="streetBox">Street Address</label>
+                <br>
+                <input type="text" name="street" id="streetBox"/>
+                <br>
+                <label for="emailBox">Email</label>
+                <br>
+                <input type="text" name="Email" id="emailBox"/>
+                <br>
+      <fieldset id="creditCard">
+        <legend>Credit Card (required)</legend>
+        <fieldset>
+            <label class="cardLabel" >
+                <input type="radio" name="cCard" value="amex" required />
+                <img src="images/sb_amex.png" alt="amex">
+            </label>
+            <label class="cardLabel" >
+                <input type="radio" name="cCard" value="discover" required />
+                <img src="images/sb_discover.png" alt="discover">
+            </label>
+            <label class="cardLabel" >
+                <input type="radio" name="cCard" value="master" required />
+                <img src="images/sb_master.png" alt="master" >
+            </label>
+            <label class="cardLabel" >
+                <input type="radio" name="cCard" value="visa" required />
+                <img src="images/sb_visa.png" alt="visa" >
+            </label>
+            <br>
+    </fieldset>
+        <label for="cardBox">Credit Card Number</label>
+        <input type="text" name="cardNumber" id="cardBox" required value="6011123456789019"
+        pattern="^(?:4[0-9]{​12}​(?:[0-9]{​3}​)?|5[1-5][0-9]{​14}​|6(?:011|5[0-9][0-9])[0-9]{​12}​|3[47][0-9]{​13}​|3(?:0[0-5]|[68][0-9])[0-9]{​11}​|(?:2131|1800|35\d{​3}​)\d{​11}​)$"/>
+        <br>
+        <label for="monthList">Expiration Date</label>
+        <br>
+        <select id="monthList" required>
+    <option value="">--Month--</option>
+    <option value="1">January</option>
+    <option value="2">February</option>
+    <option value="3">March</option>
+    <option value="4">April</option>
+    <option value="5">May </option>
+    <option value="6">June</option>
+    <option value="7">July </option>
+    <option value="8">August</option>
+    <option value="9">September</option>
+    <option value="10">October</option>
+    <option value="11">November </option>
+    <option value="12">December</option>
+    </select>
+    <select id="yearList" required>
+    <option value="">--Year--</option>
+    <option value="2021">2021</option>
+    <option value="2022">2022</option>
+    <option value="2023">2023</option>
+    <option value="2024">2024 </option>
+    <option value="2025">2025 </option>
+    </select>
+    <br>
+    <label for="cscBox" >CSC</label>
+    <br>
+    <input type="text" name="csc" id="cscBox" pattern="^\d{​3}​$" maxlength="3" placeholder="nnn" required /> 
+    </fieldset>
+    </form>
+    <br>
+    <ul class="nav nav-pills justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="thankyou.html">Purchase</a>
+      </li>
+    </ul>
+
+<br>
+         <footer><h1>LET'S GO SEATTLE</h1></footer>
+    
+</body>
+</html>

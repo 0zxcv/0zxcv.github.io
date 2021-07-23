@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: #FCBE14;
+    border: 0.3em;
+    border-style: solid;
+    font-family: Staatliches, cursive;
+    background-color: #00653A;
+    padding: 3px;
+    
+}
+body {
+  width: 1600px;
+}
+a.nav-link {
+    font-size: large;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-family: IBM Plex Mono, monospace;
+  }
+  
+  tr:nth-child(even) {
+    font-family: IBM Plex Mono, monospace;
+  }
+  th {
+      background-color: lightgoldenrodyellow;
+      color: black;
+      font-family: 'Staatliches', cursive;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  #redx1 {
+    position:absolute;
+    left: 500px;
+    top: 400px;
+    transition: transform .2s;
+  }
+  #redx1:hover {
+    -ms-transform: scale(1.5); 
+    -webkit-transform: scale(1.5); 
+    transform: scale(1.5);
+
+  }
+
+  #redx2 {
+    position:absolute;
+    left: 500px;
+    top: 800px;
+  }
+
+  #redx2:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
+  #redx3 {
+    position:absolute;
+    left: 1000px;
+    top: 400px;
+  }
+
+  #redx3:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
+  #redx4 {
+    position:absolute;
+    left: 1000px;
+    top: 800px;
+  }
+
+  #redx4:hover {
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+  }
+  p#ticketSales {
+    position:absolute;
+    left:550px;
+    top:405px;
+    color: whitesmoke;
+    font-family: Reenie Beanie, cursive;
+    font-size: 25px;
+  }
+  p#news {
+    position:absolute;
+    left:950px;
+    top:405px;
+    color: whitesmoke;
+    font-family: Reenie Beanie, cursive;
+    font-size: 30px;
+  }
+  p#jerseySales {
+    position:absolute;
+    left:550px;
+    top:805px;
+    color: whitesmoke;
+    font-family: Reenie Beanie, cursive;
+    font-size: 28px;
+  }
+  p#contact {
+    position:absolute;
+    left:900px;
+    top:805px;
+    color: whitesmoke;
+    font-family: Reenie Beanie, cursive;
+    font-size: 28px;
+  }
+
+ input:focus:not([type='radio']):valid {
+    background: rgb(114, 255, 114) url(images/sb_valid.png) right no-repeat;
+ }
+ 
+ 
+ input:focus:invalid:not([type='radio']) {
+    background: rgb(255, 89, 89) url(images/sb_invalid.png) right no-repeat;
+ }
+ body {
+  background-color: rgb(212, 255, 192);
+} 
+ @media screen and (min-width: 480px) {
+  body {
+    background-color: rgb(185, 255, 183);
+  }
+}
+h2 {
+  text-align: center;
+}
+h2#thankYou {
+  text-align: center;
+}
+div#climatePledgeArena {
+
+
+  display: flex;
+  
+  
+  justify-content: center;
+  
+  
+  }
+  div#seaLogoPay {
+
+
+    display: flex;
+    
+    
+    justify-content: center;
+    
+    
+    }
+  
+
+    article {
+      width: 95%;
+      margin-left: auto;
+      margin-right: auto;
+     
+    }
+  /* Create four equal columns that floats next to each other */
+  .column {
+      float: left;
+      width: 50%;
+     
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+  
+    }
+    
+    /* On screens that are 992px wide or less, go from four columns to two columns */
+    @media screen and (max-width: 992px) {
+      .column {
+        width: 75%;
+      }
+    }
+    
+    /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+      }
+    }
+    p#historyP {
+      text-align: center;
+    }
+    h2#allStars {
+      text-align: center;
+    }
+    p#allStarsP {
+      text-align: center;
+    }
+    p#tradeDeadlineP {
+      text-align: center;
+    }
+    p#klowP {
+      text-align: center;
+    }
